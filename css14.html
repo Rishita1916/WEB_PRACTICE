@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+    .container{
+        height: 100vh;
+        width: 100wh;
+
+        background-color: beige;
+        border: 1px solid black;
+    }
+    .box1{
+        width: 200px;
+        margin: 5px;
+        height: 70px;
+        border-radius: 2px;
+        background-color: hotpink;
+        border: 2px solid hotpink;
+        animation-name: rightmovement;
+        animation-delay: 1s;
+        animation-duration: 10s;
+        animation-timing-function: ease-in;
+        animation-direction: alternate;
+        animation-play-state: running;
+        position: relative;
+
+    }
+    @keyframes rightmovement{
+        from{
+            top:0px;
+            left:0px;
+        }
+        to{
+            top:0;
+            left:1400px;
+        }
+        
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="box1">
+
+        </div>
+        <div class="circle">
+
+        </div>
+        <div class="box2">
+
+        </div>
+    </div>
+</body>
+</html>

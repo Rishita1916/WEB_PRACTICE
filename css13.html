@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --primary-colour:gold;;
+            --custom-width:300px;
+            border: 3px solid 
+
+        }
+        .container{
+            border: 5px solid black;
+            margin:5px;
+            padding: 5px;
+            height: 600px;
+            background-color: bisque;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+        }
+        .box{
+            /* --primary-colour:gold;;
+            --custom-width:300px; */
+            border: 3px solid black;
+            width: var(--custom-width);
+            background-color: burlywood;
+            margin:5px;
+            padding: 5px;
+            height: 300px;
+            box-shadow: 10px 15px 4px var(--primary-colour);
+           
+            /* box-shadow: 10px 15px green , 15px 20px blue; */
+            /* box-shadow:  10px 15px gold; */
+        }
+        h1{
+            text-shadow: 10px  15px  gold ,13px 16px purple,17px 18px red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="img3.jpg" alt="img">
+            <h1>SHADOWS</h1>
+            <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet quos debitis recusandae sunt amet cupiditate vero facilis ratione, expedita doloremque.</P>
+        </div>
+    </div>
+</body>
+</html>
